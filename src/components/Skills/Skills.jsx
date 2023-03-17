@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import "./Skills.css";
 export const Skills = () => {
   const [text, setText] = useState("");
-
+  const javaScriptLogo = "./src/assets/Javascript.png";
+  const reactLogo = "./src/assets/React.png";
+  const htmlLogo = "./src/assets/HTML.png";
+  const cssLogo = "./src/assets/CSS.PNG";
   return (
     <div className="contentSkills" id="skills">
       <h1>Skills</h1>
@@ -22,7 +25,7 @@ export const Skills = () => {
             <div className="filledbar"></div>
           </div>
           <div className="circle">
-            <img src="./src/assets/React.png" height={120} />
+            <img src={reactLogo} height={120} />
           </div>
         </div>
         <div
@@ -40,7 +43,7 @@ export const Skills = () => {
             <div className="filledbar"></div>
           </div>
           <div className="circle">
-            <img src="./src/assets/Javascript.png" height={120} />
+            <img src={javaScriptLogo} height={120} />
           </div>
         </div>
         <div
@@ -58,7 +61,7 @@ export const Skills = () => {
             <div className="filledbar"></div>
           </div>
           <div className="circle">
-            <img src="./src/assets/HTML.png" height={120} />
+            <img src={htmlLogo} height={120} />
           </div>
         </div>
         <div
@@ -76,7 +79,7 @@ export const Skills = () => {
             <div className="filledbar"></div>
           </div>
           <div className="circle">
-            <img src="./src/assets/CSS.PNG" height={120} />
+            <img src={cssLogo} height={120} />
           </div>
         </div>
       </div>
