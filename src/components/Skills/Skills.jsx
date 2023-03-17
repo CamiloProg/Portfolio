@@ -5,7 +5,7 @@ export const Skills = () => {
   const javaScriptLogo = "./src/assets/Javascript.png";
   const reactLogo = "./src/assets/React.png";
   const htmlLogo = "./src/assets/HTML.png";
-  const cssLogo = "./src/assets/CSS.PNG";
+  const cssLogo = "src/assets/CSS.PNG";
   return (
     <div className="contentSkills" id="skills">
       <h1>Skills</h1>

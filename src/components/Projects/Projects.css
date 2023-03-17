@@ -8,4 +8,96 @@
 .carrousel {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: red !important;
+}
+.proyects-list {
+  width: 70%;
+}
+
+.proyects-list li {
+  margin-bottom: 50px;
+  box-shadow: 0 10px 50px #000a;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.8px);
+  -webkit-backdrop-filter: blur(10.8px);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+}
+.proyects-list li {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.proyects-list li img {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.proyects-list li .proyects-list_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  color: white;
+  margin: 0 auto;
+}
+
+.proyects-list li .proyects-list_text h4 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.proyects-list li .proyects-list_text p {
+  transition: 0.3s;
+}
+
+.proyects-list li:hover .proyects-list_text p {
+  color: white;
+}
+
+.proyects-list li .proyects-list_text .proyects-list_text-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.proyects-list li .proyects-list_text .proyects-list_text-links a {
+  padding: 10px 15px;
+  border: white 2px solid;
+  color: white;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.proyects-list li .proyects-list_text .proyects-list_text-links a:hover {
+  border-color: white;
+  color: white;
+  box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+}
+.proyects-list li .proyects-list_text .proyects-list_text-links .not-allowed {
+  cursor: not-allowed;
+}
+.proyects-list
+  li
+  .proyects-list_text
+  .proyects-list_text-links
+  .not-allowed:hover {
+  border-color: white;
+  background-color: transparent;
+  box-shadow: none;
+  color: white;
 }
