@@ -86,7 +86,7 @@
 .proyects-list li .proyects-list_text .proyects-list_text-links a:hover {
   border-color: white;
   color: white;
-  box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+  box-shadow: 0 0 10px white, 0 0 30px white, 0 0 30px white;
 }
 .proyects-list li .proyects-list_text .proyects-list_text-links .not-allowed {
   cursor: not-allowed;

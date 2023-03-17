@@ -1,10 +1,6 @@
 import "./Projects.css";
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { MdPlayArrow } from "react-icons/md";
-import { Carousel } from "react-responsive-carousel";
-import { IconContext } from "react-icons";
+
 <link rel="stylesheet" type="text/css" href="swiper-styles.css" />;
 
 export const Projects = () => {
@@ -46,8 +42,6 @@ export const Projects = () => {
     <section className="contentProjects" id="projects">
       <swiper-container
         class="proyects-list mySwiper"
-        pagination="true"
-        pagination-clickable="true"
         navigation="true"
         space-between="30"
         centered-slides="true"
@@ -74,7 +68,7 @@ export const Projects = () => {
                   GitHub
                 </a>
                 <a href="https://camiloprogtodo.netlify.app/" target="_blank">
-                  Desploy
+                  Deploy
                 </a>
               </div>
             </div>
@@ -104,7 +98,7 @@ export const Projects = () => {
                   href="https://camiloprogsearchmovies.netlify.app/"
                   target="_blank"
                 >
-                  Desploy
+                  Deploy
                 </a>
               </div>
             </div>
@@ -134,7 +128,7 @@ export const Projects = () => {
                   href="https://camiloproguserstable.netlify.app/"
                   target="_blank"
                 >
-                  Desploy
+                  Deploy
                 </a>
               </div>
             </div>
@@ -142,10 +136,7 @@ export const Projects = () => {
         </swiper-slide>
         <swiper-slide>
           <li>
-            <img
-              src="https://github.com/CamiloProg/Portfolio/blob/a0efd1f61f6b1c5e637fdb9f3c22c327ff13b6cc/src/assets/React.png"
-              alt="TodoApp"
-            />
+            <img src="src/assets/todoagain.png" alt="TodoApp" />
             <div class="proyects-list_text">
               <h4>Task App</h4>
               <p>
@@ -168,7 +159,7 @@ export const Projects = () => {
                   href="https://camiloprog.github.io/react-introdution/"
                   target="_blank"
                 >
-                  Desploy
+                  Deploy
                 </a>
               </div>
             </div>
