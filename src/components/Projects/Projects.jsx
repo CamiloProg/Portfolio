@@ -142,7 +142,10 @@ export const Projects = () => {
         </swiper-slide>
         <swiper-slide>
           <li>
-            <img src="src/assets/todoagain.png" alt="TodoApp" />
+            <img
+              src="https://github.com/CamiloProg/Portfolio/blob/a0efd1f61f6b1c5e637fdb9f3c22c327ff13b6cc/src/assets/React.png"
+              alt="TodoApp"
+            />
             <div class="proyects-list_text">
               <h4>Task App</h4>
               <p>
