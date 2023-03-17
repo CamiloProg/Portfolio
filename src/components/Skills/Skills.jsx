@@ -22,7 +22,7 @@ export const Skills = () => {
             <div className="filledbar"></div>
           </div>
           <div className="circle">
-            <img src="src/assets/React.png" height={120} />
+            <img src="./src/assets/React.png" height={120} />
           </div>
         </div>
         <div
@@ -40,7 +40,7 @@ export const Skills = () => {
             <div className="filledbar"></div>
           </div>
           <div className="circle">
-            <img src="src/assets/Javascript.png" height={120} />
+            <img src="./src/assets/Javascript.png" height={120} />
           </div>
         </div>
         <div
@@ -58,7 +58,7 @@ export const Skills = () => {
             <div className="filledbar"></div>
           </div>
           <div className="circle">
-            <img src="src/assets/HTML.png" height={120} />
+            <img src="./src/assets/HTML.png" height={120} />
           </div>
         </div>
         <div
@@ -76,7 +76,7 @@ export const Skills = () => {
             <div className="filledbar"></div>
           </div>
           <div className="circle">
-            <img src="src/assets/CSS.PNG" height={120} />
+            <img src="./src/assets/CSS.PNG" height={120} />
           </div>
         </div>
       </div>
