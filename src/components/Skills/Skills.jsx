@@ -1,18 +1,86 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Skills.css";
 export const Skills = () => {
+  const [text, setText] = useState("");
+
   return (
     <div className="contentSkills" id="skills">
-      <section>
-        <div className="=title">
-          <h2>HABILIDADES</h2>
-          <h4>Blandas</h4>
+      <h1>Skills</h1>
+      <div className="containerSkill">
+        <div
+          className="card"
+          onMouseEnter={() =>
+            setText(
+              " I have done some projects with ReactJs and React Native using libraries as Redux, Context, hooks and helpers for saving work time."
+            )
+          }
+          onMouseLeave={() => setText("")}
+        >
+          <h3 className="title">ReactJS / ReactNative</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
+          </div>
+          <div className="circle">
+            <img src="src/assets/React.png" height={120} />
+          </div>
         </div>
-
-        <div className="=title">
-          <h4>Tecnicas</h4>
+        <div
+          className="card"
+          onMouseEnter={() =>
+            setText(
+              "JavaScript is my favorite language, I think that it is super important to know it, all my projects have at least a little of JavaScript :)"
+            )
+          }
+          onMouseLeave={() => setText("")}
+        >
+          <h3 className="title">JavaScript</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
+          </div>
+          <div className="circle">
+            <img src="src/assets/Javascript.png" height={120} />
+          </div>
         </div>
-      </section>
+        <div
+          className="card"
+          onMouseEnter={() =>
+            setText(
+              "HTML is the base of all, I really love use this technology and mix it with other libraries to create awesome projects."
+            )
+          }
+          onMouseLeave={() => setText("")}
+        >
+          <h3 className="title">HTML</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
+          </div>
+          <div className="circle">
+            <img src="src/assets/HTML.png" height={120} />
+          </div>
+        </div>
+        <div
+          className="card"
+          onMouseEnter={() =>
+            setText(
+              "Is incredible all the things that you can do with CSS, I'm interested to improve my skills in CSS because all of us will need to know perfectly this technology. I have worked with libraries as Bootstrap, Tailwind, StyleSheets, etc too."
+            )
+          }
+          onMouseLeave={() => setText("")}
+        >
+          <h3 className="title">CSS</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
+          </div>
+          <div className="circle">
+            <img src="src/assets/CSS.PNG" height={120} />
+          </div>
+        </div>
+      </div>
+      <div className="cardText">{text}</div>
     </div>
   );
 };

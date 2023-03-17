@@ -16,13 +16,24 @@
   justify-content: center;
 }
 .cardGlass {
-  width: 50%;
   background: rgba(255, 255, 255, 0);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10.8px);
   -webkit-backdrop-filter: blur(10.8px);
   border: 1px solid rgba(255, 255, 255, 0.26);
+  width: 500px;
+}
+@media (max-width: 500px) {
+  .cardGlass {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.8px);
+    -webkit-backdrop-filter: blur(10.8px);
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    width: 100%;
+  }
 }
 .cardGlass h1,
 h3 {
