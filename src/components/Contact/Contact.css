@@ -1,0 +1,39 @@
+.contactContent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.contact-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 50px #000a;
+  background: rgba(121, 121, 121, 0.137);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.8px);
+  -webkit-backdrop-filter: blur(10.8px);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  padding-right: 100px;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  gap: 100px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list img:hover {
+  border-color: white;
+  border-radius: 50px;
+  color: white;
+  box-shadow: 0 0 10px white, 0 0 30px white, 0 0 30px white;
+}
+.list:hover {
+  text-decoration: underline;
+}

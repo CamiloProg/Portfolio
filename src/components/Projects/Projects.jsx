@@ -68,7 +68,7 @@ export const Projects = () => {
                   GitHub
                 </a>
                 <a href="https://camiloprogtodo.netlify.app/" target="_blank">
-                  Deploy
+                  Demo
                 </a>
               </div>
             </div>
@@ -98,7 +98,7 @@ export const Projects = () => {
                   href="https://camiloprogsearchmovies.netlify.app/"
                   target="_blank"
                 >
-                  Deploy
+                  Demo
                 </a>
               </div>
             </div>
@@ -128,7 +128,7 @@ export const Projects = () => {
                   href="https://camiloproguserstable.netlify.app/"
                   target="_blank"
                 >
-                  Deploy
+                  Demo
                 </a>
               </div>
             </div>
@@ -159,7 +159,7 @@ export const Projects = () => {
                   href="https://camiloprog.github.io/react-introdution/"
                   target="_blank"
                 >
-                  Deploy
+                  Demo
                 </a>
               </div>
             </div>
