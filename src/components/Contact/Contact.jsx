@@ -26,7 +26,11 @@ export const Contact = () => {
           href="https://github.com/CamiloProg"
           target="_blank"
         >
-          <img src={githubLogo} alt="Github" width={80} />
+          <img
+            src={"https://cdn-icons-png.flaticon.com/512/536/536452.png"}
+            alt="Github"
+            width={80}
+          />
           <p>GitHub</p>
         </a>
 
