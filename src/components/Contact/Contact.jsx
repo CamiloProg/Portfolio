@@ -1,5 +1,8 @@
 import React from "react";
 import "./Contact.css";
+import cvLogo from "../../assets/cvlogo.png";
+import githubLogo from "../../assets/gitHubLogo.png";
+import linkedinLogo from "../../assets/linkedIn.png";
 export const Contact = () => {
   return (
     <section className="contactContent " id="contact">
@@ -13,7 +16,7 @@ export const Contact = () => {
           href="https://www.linkedin.com/in/camilomartinez01/"
           target="_blank"
         >
-          <img src="src/assets/linkedIn.png" alt="LinkedIn" width={80} />
+          <img src={linkedinLogo} alt="LinkedIn" width={80} />
           <p>LinkedIn</p>
         </a>
 
@@ -22,7 +25,7 @@ export const Contact = () => {
           href="https://github.com/CamiloProg"
           target="_blank"
         >
-          <img src="../src/assets/gitHubLogo.png" alt="Github" width={80} />
+          <img src={githubLogo} alt="Github" width={80} />
           <p>GitHub</p>
         </a>
 
@@ -32,7 +35,7 @@ export const Contact = () => {
           download
           target="_blank"
         >
-          <img src="src/assets/cvlogo.png" alt="CV" width={80} />
+          <img src={cvLogo} alt="CV" width={80} />
           <p>CV</p>
         </a>
       </ul>

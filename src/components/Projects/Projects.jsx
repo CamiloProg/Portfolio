@@ -1,44 +1,14 @@
 import "./Projects.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import usersTable from "../../assets/usersTable.png";
+import todo from "../../assets/todo.png";
+import taskapp from "../../assets/todoagain.png";
+import searchmovies from "../../assets/searchMovies.png";
 
 <link rel="stylesheet" type="text/css" href="swiper-styles.css" />;
 
 export const Projects = () => {
   return (
-    // <div className="contentProjects" id="projects">
-    //   <section>
-    //     <div className="=title">
-    //       <h2>My Projects</h2>
-    //     </div>
-
-    //     <div className="carrousel">
-    //       <h4>Carrousel</h4>
-    //       <a
-    //         target={"_blank"}
-    //         href="https://camiloprog.github.io/react-introdution/"
-    //       >
-    //         Schedule your tasks with a localStorage
-    //       </a>
-    //       <br />
-    //       <a
-    //         target={"_blank"}
-    //         href="https://camiloprogsearchmovies.netlify.app/"
-    //       >
-    //         Search movies by their name and organize them checking the box
-    //       </a>
-    //       <br />
-
-    //       <a target={"_blank"} href="https://camiloproguserstable.netlify.app/">
-    //         Users Table with an API
-    //       </a>
-    //       <br />
-
-    //       <a target={"_blank"} href="https://camiloprogtodo.netlify.app/">
-    //         Todo App with ReactJS and TypeScript
-    //       </a>
-    //     </div>
-    //   </section>
-    // </div>
     <section className="contentProjects" id="projects">
       <swiper-container
         class="proyects-list mySwiper"
@@ -50,7 +20,7 @@ export const Projects = () => {
       >
         <swiper-slide>
           <li>
-            <img src="src/assets/todo.png" alt="TodoAPP" />
+            <img src={todo} alt="TodoAPP" />
             <div class="proyects-list_text">
               <h4>Todo APP</h4>
               <p>
@@ -77,7 +47,7 @@ export const Projects = () => {
 
         <swiper-slide>
           <li>
-            <img src="src/assets/searchMovies.png" alt="SearchMovies" />
+            <img src={searchmovies} alt="SearchMovies" />
             <div class="proyects-list_text">
               <h4>SearchMovies</h4>
               <p>
@@ -107,7 +77,7 @@ export const Projects = () => {
 
         <swiper-slide>
           <li>
-            <img src="src/assets/usersTable.png" alt="Users Table" />
+            <img src={usersTable} alt="Users Table" />
             <div class="proyects-list_text">
               <h4>Users Table</h4>
               <p>
@@ -136,7 +106,7 @@ export const Projects = () => {
         </swiper-slide>
         <swiper-slide>
           <li>
-            <img src="src/assets/todoagain.png" alt="TodoApp" />
+            <img src={taskapp} alt="TodoApp" />
             <div class="proyects-list_text">
               <h4>Task App</h4>
               <p>
