@@ -31,7 +31,7 @@ export const Contact = () => {
 
         <a
           className="list"
-          href="src/assets/CV_CamiloMartinezEN.pdf"
+          href="../../assets/CV_CamiloMartinezEN.pdf"
           download
           target="_blank"
         >
