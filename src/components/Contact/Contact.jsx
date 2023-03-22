@@ -3,6 +3,7 @@ import "./Contact.css";
 import cvLogo from "../../assets/cvlogo.png";
 import githubLogo from "../../assets/gitHubLogo.png";
 import linkedinLogo from "../../assets/linkedIn.png";
+import MyCV from "../../assets/CV_CamiloMartinezEN.pdf";
 export const Contact = () => {
   return (
     <section className="contactContent " id="contact">
@@ -29,12 +30,7 @@ export const Contact = () => {
           <p>GitHub</p>
         </a>
 
-        <a
-          className="list"
-          href="../../assets/CV_CamiloMartinezEN.pdf"
-          download
-          target="_blank"
-        >
+        <a className="list" href={MyCV} download target="_blank">
           <img src={cvLogo} alt="CV" width={80} />
           <p>CV</p>
         </a>
