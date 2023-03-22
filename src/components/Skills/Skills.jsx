@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "./Skills.css";
+import javaScriptLogo from "../../assets/Javascript.png";
+import reactLogo from "../../assets/React.png";
+import htmlLogo from "../../assets/HTML.png";
+import cssLogo from "../..//assets/CSS.png";
 export const Skills = () => {
   const [text, setText] = useState("");
-  const javaScriptLogo = "./src/assets/Javascript.png";
-  const reactLogo = "./src/assets/React.png";
-  const htmlLogo = "./src/assets/HTML.png";
-  const cssLogo = "src/assets/CSS.PNG";
+
   return (
     <div className="contentSkills" id="skills">
       <h1>Skills</h1>
